@@ -1,0 +1,96 @@
+1
+00:00:00,500 --> 00:00:05,733
+Across aquaculture farms, multiple ponds depend on electricity to keep aerators running.
+
+2
+00:00:08,500 --> 00:00:14,600
+When the power fails, the farmer must decide which ponds receive limited backup electricity.
+
+3
+00:00:18,500 --> 00:00:19,700
+Introducing AquaResQ,
+
+4
+00:00:19,833 --> 00:00:23,733
+Team SKAY's explainable emergency intelligence and resource optimization system.
+
+5
+00:00:30,500 --> 00:00:34,833
+Each pond has its own planning profile, including water depth,
+
+6
+00:00:34,967 --> 00:00:38,000
+starting oxygen, shrimp biomass and aerator requirements.
+
+7
+00:00:44,500 --> 00:00:49,267
+The outage simulator estimates how dissolved oxygen may change over time.
+
+8
+00:00:49,400 --> 00:00:52,000
+Its oxygen-balance model produces trajectories that
+
+9
+00:00:52,133 --> 00:00:55,600
+can be compared against a chosen protection threshold.
+
+10
+00:01:02,500 --> 00:01:06,400
+In our critical scenario, three aerators need six kilowatts,
+
+11
+00:01:06,533 --> 00:01:09,133
+but the generator supplies only four.
+
+12
+00:01:09,267 --> 00:01:13,600
+Over twelve hours, available energy is limited to forty-eight kilowatt-hours.
+
+13
+00:01:20,500 --> 00:01:23,100
+AquaResQ evaluates feasible whole-pond aerator allocations,
+
+14
+00:01:23,233 --> 00:01:25,833
+checking generator power and available energy.
+
+15
+00:01:25,967 --> 00:01:30,733
+It selects the combination that minimizes the modeled integrated oxygen deficit.
+
+16
+00:01:40,500 --> 00:01:48,767
+In this simulated example, AquaResQ reduces integrated oxygen deficit from eighty-nine point two eight to twenty-three point six —
+
+17
+00:01:48,900 --> 00:01:51,933
+approximately seventy-four percent below the no-generator case.
+
+18
+00:01:58,500 --> 00:02:00,233
+Every recommendation is explainable.
+
+19
+00:02:00,367 --> 00:02:05,133
+The system shows which ponds receive power, why alternatives were excluded,
+
+20
+00:02:05,267 --> 00:02:08,300
+and the trade-offs between different allocation strategies.
+
+21
+00:02:15,500 --> 00:02:18,533
+Today, AquaResQ is a simulated planning prototype.
+
+22
+00:02:18,667 --> 00:02:21,700
+Expert review and field validation come next.
+
+23
+00:02:23,500 --> 00:02:24,700
+AquaResQ.
+
+24
+00:02:24,833 --> 00:02:26,567
+When every pond counts.
+

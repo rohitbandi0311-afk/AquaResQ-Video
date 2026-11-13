@@ -1,0 +1,1 @@
+Every recommendation is explainable. The system shows which ponds receive power, why alternatives were excluded, and the trade-offs between different allocation strategies.

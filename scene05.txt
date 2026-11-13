@@ -1,0 +1,1 @@
+The outage simulator estimates how dissolved oxygen may change over time. Its oxygen-balance model produces trajectories that can be compared against a chosen protection threshold.

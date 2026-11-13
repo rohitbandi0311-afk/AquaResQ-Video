@@ -1,0 +1,1 @@
+In our critical scenario, three aerators need six kilowatts, but the generator supplies only four. Over twelve hours, available energy is limited to forty-eight kilowatt-hours.

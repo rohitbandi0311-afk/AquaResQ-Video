@@ -1,0 +1,32 @@
+[scene01]
+Across aquaculture farms, multiple ponds depend on electricity to keep aerators running.
+
+[scene02]
+When the power fails, the farmer must decide which ponds receive limited backup electricity.
+
+[scene03]
+Introducing AquaResQ, Team SKAY's explainable emergency intelligence and resource optimization system.
+
+[scene04]
+Each pond has its own planning profile, including water depth, starting oxygen, shrimp biomass and aerator requirements.
+
+[scene05]
+The outage simulator estimates how dissolved oxygen may change over time. Its oxygen-balance model produces trajectories that can be compared against a chosen protection threshold.
+
+[scene06]
+In our critical scenario, three aerators need six kilowatts, but the generator supplies only four. Over twelve hours, available energy is limited to forty-eight kilowatt-hours.
+
+[scene07]
+AquaResQ evaluates feasible whole-pond aerator allocations, checking generator power and available energy. It selects the combination that minimizes the modeled integrated oxygen deficit.
+
+[scene08]
+In this simulated example, AquaResQ reduces integrated oxygen deficit from eighty-nine point two eight to twenty-three point six — approximately seventy-four percent below the no-generator case.
+
+[scene09]
+Every recommendation is explainable. The system shows which ponds receive power, why alternatives were excluded, and the trade-offs between different allocation strategies.
+
+[scene10]
+Today, AquaResQ is a simulated planning prototype. Expert review and field validation come next.
+
+[scene11]
+AquaResQ. When every pond counts.

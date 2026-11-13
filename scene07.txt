@@ -1,0 +1,1 @@
+AquaResQ evaluates feasible whole-pond aerator allocations, checking generator power and available energy. It selects the combination that minimizes the modeled integrated oxygen deficit.

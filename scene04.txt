@@ -1,0 +1,1 @@
+Each pond has its own planning profile, including water depth, starting oxygen, shrimp biomass and aerator requirements.

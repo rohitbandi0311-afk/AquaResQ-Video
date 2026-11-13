@@ -1,0 +1,35 @@
+
+name: Render AquaResQ Video
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Render AquaResQ video
+        run: npm run build
+
+      - name: Upload rendered MP4
+        uses: actions/upload-artifact@v4
+        with:
+          name: AquaResQ-Video
+          path: out/aquaresq-3min-demo.mp4
+          if-no-files-found: error
